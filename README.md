@@ -1,2 +1,2 @@
 # LibraryDatabase
-I created a database through mySQL that mimics one a library can use.
+I created a database using mySQL. The database mimics a database that multiple libraries, within the same region, can use. The database stores library user information along with their issues, returns of issues, messages, and fines they have been given. It also stores the library information along with its books and employee information. Both users and the employees of the library can use this database to their advantage. Furthermore, the database only deals with libraries who only contain physical copies of books.
