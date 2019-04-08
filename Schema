@@ -1,0 +1,11 @@
+Schema:
+lib_user(user_id,first_name,last_name,street,street_num,zip_code,state,date_of_birth, library_ID)
+user_phone_number(user_ID,phone_number)
+message(message_id,user_id,content,date_sent)
+library(library_id,library_name,street, street_num, zip_code, city, state)
+book(book_id, title, author, genre)
+lib_issue(issue_id,user_id,book_id,date_issued)
+lib_return(return_id,user_id,issue_id,return_date)
+fine(fine_id,user_id,amount,date_due,date_paid)
+book_locations(book_id,library_ID)
+employee(employee_id,first_name,last_name,library_id)
